@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portofolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+ font-family: "verdana";
+ font-size: 1em;
+ background-color:#FFE9E9;
+}
+	
+h1{
+font-family: "open-sans";
+padding:8px 16px;
+line-height:0px;
+float:center;
+font-weight: bolder;
+padding: 50px;
+font-size: 5em;
+}
+
+.menu {
+ display: block;
+ height:36px;
+ width: 100%;
+ background-color:#FFE9E9;
+}
+
+.content {
+ clear: both;
+ padding:5px 0;
+ min-height: 200px;
+
+}
+
+.footer {
+ clear: both;
+ margin-top:10px;
+ background-color: #eee;
+ padding:10px 8px;
+}
+
+#navigasi {
+ position:relative;
+ line-height:30px;
+ margin:0;
+ padding-left:400px;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi a {
+ display:block;
+ padding:0px 3px;
+ background-image:white;
+ color:black;
+ text-decoration:none;
+}
+
+#navigasi a:hover {
+ color:#ba8fa9f8;
+}
+
+#navigasi li {
+ position:relative;
+ float:left;
+ width: 200px;
+ text-align: center;
+}
+
+#navigasi ul {
+ position: relative;
+ display:none;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi li ul a{
+ width:170PX;
+ text-align: left;
+ height:auto;
+ background-color: white;
+ box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+#navigasi li:hover ul{
+ display:block;
+}
+
+#navigasi li:hover ul ul{
+ display:none;
+}
+
+#navigasi li a:hover {
+		
+	    transition-duration: 0.5s;
+}
+
+.kotak
+{
+    border: 0px solid gainsboro;
+    padding: 0px;
+    margin-bottom: 15px;
+	width:100%;
+	height:300px;
+	float:center;
+	margin:0 auto;
+}
+
+/*slideshow*/
+.slideshow-container {
+  max-width: 1000px;
+  padding-top: 30px;
+  position: relative;
+  margin: auto;
+}
+	
+
+.bisa-slider { 
+	border: 10px solid #efefef; 
+	position: relative; 
+	overflow: hidden; 
+	background: #efefef;
+}
+ 
+.bisa-slider { 
+	margin:20px auto;
+	width: 768px;
+	height: 520px; 
+}
+ 
+.isi-slider img { 
+	width: 768px;
+	height: 520px; 
+	float: left;
+}
+ 
+.isi-slider { 
+	position: absolute; 
+	width:3900px;  
+ 
+	animation-name:slider;
+	animation-duration:10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	-webkit-animation-name:slider;
+	-webkit-animation-duration:10s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-name:slider;
+	-moz-animation-duration:10s;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count:infinite;
+	-o-animation-name:slider;
+	-o-animation-duration:10s;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count:infinite;
+}
+ 
+ 
+.isi-slider:hover { 
+	-webkit-animation-play-state:paused; 
+	-moz-animation-play-state:paused; 
+	-o-animation-play-state:paused; 
+	animation-play-state:paused;} 
+}
+ 
+.isi-slider img { 
+	float: right; 
+}
+ 
+.bisa-slider:after { 
+	font-size: 150px; 
+	position: absolute; 
+	z-index: 12; 
+	color: rgba(255,255,255, 0); 
+	left: 200px; top: 80px; 
+	-webkit-transition: 1s all ease-in-out; 
+	-moz-transition: 1s all ease-in-out; 
+	transition: 1s all ease-in-out; 
+}
+ 
+.bisa-slider:hover:after { 
+	color: rgba(255,255,255, 0.6);  
+}
+ 
+ 
+ 
+@-moz-keyframes slider {     
+	0% {
+		left: 0; opacity: 0; 
+	}     
+	2% {
+		opacity: 1; 
+	}     
+	20% {
+		left: 0; opacity: 1; 
+	}     
+	21% {
+		opacity: 0; 
+	}     
+	24% {
+		opacity: 0; 
+	}     
+	25% {
+		left: -768px; opacity: 1; 
+	}       
+	45% {
+		left: -768px; opacity: 1; 
+	}     
+	46% {
+		opacity: 0; 
+	}     
+	48% {
+		opacity: 0; 
+	}     
+	50% {
+		left: -1536px; opacity: 1; 
+	}     
+	70% {
+		left: -1536px; opacity: 1; 
+	}     
+	72% {
+		opacity: 0; 
+	}     
+	74% {
+		opacity: 0; 
+	}    
+	75% {
+		left: -2304px; opacity: 1; 
+	}   	
+	95% {
+		left: -2304px; opacity: 1; 
+	}   	
+	97% { 
+		left: -2304px; opacity: 0;
+	}   	
+	100% {
+		left: 0; opacity: 0; 
+	}
+} 
+ 
+@-webkit-keyframes slider {     
+	0% {
+		left: 0; opacity: 0; 
+	}     
+	2% {
+		opacity: 1; 
+	}     
+	20% {
+		left: 0; opacity: 1; 
+	}     
+	21% {
+		opacity: 0; 
+	}     
+	24% {
+		opacity: 0; 
+	}     
+	25% {
+		left: -768px; opacity: 1; 
+	}       
+	45% {
+		left: -768px; opacity: 1; 
+	}     
+	46% {
+		opacity: 0; 
+	}     
+	48% {
+		opacity: 0; 
+	}     
+	50% {
+		left: -1536px; opacity: 1; 
+	}     
+	70% {
+		left: -1536px; opacity: 1; 
+	}     
+	72% {
+		opacity: 0; 
+	}     
+	74% {
+		opacity: 0; 
+	}    
+	75% {
+		left: -2304px; opacity: 1; 
+	}   	
+	95% {
+		left: -2304px; opacity: 1; 
+	}   	
+	97% { 
+		left: -2304px; opacity: 0;
+	}   	
+	100% {
+		left: 0; opacity: 0; 
+	}
+} 
+ 
+ 
+@keyframes slider {     
+	0% {
+		left: 0; opacity: 0; 
+	}     
+	2% {
+		opacity: 1; 
+	}     
+	20% {
+		left: 0; opacity: 1; 
+	}     
+	21% {
+		opacity: 0; 
+	}     
+	24% {
+		opacity: 0; 
+	}     
+	25% {
+		left: -768px; opacity: 1; 
+	}     
+	45% {
+		left: -768px; opacity: 1; 
+	}     
+	46% {
+		opacity: 0; 
+	}     
+	48% {
+		opacity: 0; 
+	}     
+	50% {
+		left: -1536px; opacity: 1; 
+	}     
+	70% {
+		left: -1536px; opacity: 1; 
+	}     
+	72% {
+		opacity: 0; 
+	}     
+	74% {
+		opacity: 0; 
+	}    
+	75% {
+		left: -2304px; opacity: 1; 
+	}   	
+	95% {
+		left: -2304px; opacity: 1; 
+	}   	
+	97% { 
+		left: -2304px; opacity: 0; 
+	} 
+ 
+	100% {
+		left: 0; opacity: 0; 
+	}
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+/*sidebar*/
+* {
+  box-sizing: border-box;
+}
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.side {
+  -ms-flex: 10%; /* IE10 */
+  flex: 10%;
+  background-color: #f1f1f1;
+  padding: 30px;
+  font-family: "open-sans";
+}
+
+h2{
+ font-size: 35px;
+}
+
+h5{
+ font-family: "verdana";
+ font-weight: lighter;
+	}
+p{
+ font-family: "verdana";
+ font-weight: lighter;
+ font-size: 14px;
+	}
+h3{
+ font-size: 20px;
+}
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 10px;
+  font-family: "open-sans";
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*icon sosmed*/
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 4px 2px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+	
+.fa-instagram {
+  background: #FFE9E9;
+  color: black;
+}
+/*button continue reading*/
+.btn1 {
+    border: none;
+    background-color: #FFE9E9;
+	color: white;
+    padding: 8px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+	border-radius: 5px;
+	margin-left: 470px;
+	font-family: "verdana";
+}
+.btn1:hover {
+  background-color: #947171;
+  color: #FFE9E9;
+  transition-duration: 0.2s;
+}
+
+  .btn {
+   border: none;
+    background-color: #FFE9E9;
+	border-radius: 4px;
+	color: black;
+    padding: 8px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+	}
+.btn hover {
+  background-color: #947171;
+  color: #FFE9E9;
+  transition-duration: 0.2s;
+}
+
+/*fadeinup1*/
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated2 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp2 {
+    opacity: 0
+}
+
+.fadeInUp2 {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+/*fade in up2*/
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 2s;
+	animation-delay: 0s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+/*fadeinup3*/
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated3 {
+    animation-duration: 1s;
+	animation-delay: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp3 {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+* {
+  box-sizing: border-box;
+}
+/*contact*/
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FFE9E9;
+  color: black;
+  padding: 7px 15px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #947171;
+  color: #FFE9E9;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+
+
+<body>
+<div class="menu">
+	<img src="image/LOGO.png" width="200px" height="70px" style="padding-left: 0px">
+</div>
+
+<div class="menu">
+  <ul id="navigasi">
+     <li><a href="Home.html">HOME</a></li>
+     <li><a href="about.html">ABOUT</a></li>
+     <li><a href="Certificate.html">CERTIFICATE</a></li>
+     <li><a href="Skills.html">SKILLS</a></li>
+	 <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+</div>
+	
+<hr size="1px" color="#A6A6A6">
+	
+<br>
+	
+<div class="animated animatedFadeInUp fadeInUp">
+	<div class="row">
+  		<div class="side">
+    		<h2 align="center">Welcome to Richelle's Portfolio</h>
+			<h5>Hello and welcome! I'm Richelle Marvela, and I'm thrilled to present to you a 
+				collection of my work that showcases my passion, skills, and experiences.</h5>
+			<hr>
+ 			<h3>Social Media</h3>
+    		<a href="https://instagram.com/richellevela?utm_medium=copy_link" target="_blank" class="fa fa-instagram"></a>
+   		 	<p>@Richellevela</p>
+			<hr>
+    		
+			<h3>Contact</h3>
+    		<p><b>Email</b>: richellevela@gmail.com</p>
+<hr> 
+  		</div>
+	
+  		<div class="main">
+			<div class="content">
+				<div class="kotak">
+					<div class="animated2 animatedFadeInUp2 fadeInUp2">
+						<div class="slideshow-container">
+							 <div class="bisa-slider">
+								<div class="isi-slider">
+									<img src="image/2.png" alt="r1">
+									<img src="image/3.png" alt="r2">
+									<img src="image/1.png" alt="r3">
+									<img src="image/2.png" alt="r1">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+  			</div>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+	
+<br><br><br>
+
+
+<div class="footer">
+	
+	<div class="container">
+  		<div style="text-align:center">
+    		<h2>Contact Us</h2>
+ 			Copyright &copy; 2024 - Richelle Marvela
+  		</div>
+  	<div class="row">
+   		<div class="column">
+			<img src="image/logoabu.jpg" align="left" width="530px" height="171px" style="padding:0 8px 4px 5px;">
+      			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.466523167835!2d106.781021118164!3d-6.20202159881592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6dcc7d2c4ad%3A0x209cb1eef39be168!2sUniversitas%20Bina%20Nusantara%20Kampus%20Anggrek!5e0!3m2!1sid!2sid!4v1709529536469!5m2!1sid!2sid" width="530px" height="170px" style="border:0; padding: 10px 10px 10px 10px;" allowfullscreen="" loading="lazy" align="left"></iframe> 
+    	</div>
+   		 <div class="column">
+      		<form action="/action_page.php">
+		  			<label for="fname"><b><h4 align="left">First Name</h4></b></label>
+       			<input type="text" id="fname" name="firstname" placeholder="First Name">
+		  			<label for="lname"><b><h4 align="left">Last Name</h4></b></label>
+        		<input type="text" id="lname" name="lastname" placeholder="Last Name">
+		  			<label for="email"><b><h4 align="left">Email</h4></b></label>
+        		<input type="text" placeholder="Enter Email" name="email" required>
+        		<input type="submit" value="Subscribe">
+      		</form>
+    	</div>
+  	</div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

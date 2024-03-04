@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portofolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+ font-family: "verdana";
+ font-size: 1em;
+ background-color:#FFE9E9;
+}
+	
+h1{
+font-family: "open-sans";
+padding:8px 16px;
+line-height:0px;
+float:center;
+font-weight: bolder;
+padding: 50px;
+font-size: 5em;
+}
+
+.menu {
+ display: block;
+ height:36px;
+ width: 100%;
+ background-color:#FFE9E9;
+}
+
+.content {
+ clear: both;
+ padding:5px 0;
+ min-height: 200px;
+
+}
+
+
+.footer {
+ clear: both;
+ margin-top:10px;
+ background-color: #eee;
+ padding:10px 8px;
+}
+#navigasi {
+ position:relative;
+ line-height:30px;
+ margin:0;
+ padding-left:400px;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi a {
+ display:block;
+ padding:0px 3px;
+ background-image:white;
+ color:black;
+ text-decoration:none;
+}
+
+#navigasi a:hover {
+ color:#ba8fa9f8;
+}
+
+#navigasi li {
+ position:relative;
+ float:left;
+ width: 200px;
+ text-align: center;
+}
+
+#navigasi ul {
+ position: relative;
+ display:none;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi li ul a{
+ width:170PX;
+ text-align: left;
+ height:auto;
+ background-color: white;
+ box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+#navigasi li:hover ul{
+ display:block;
+}
+
+#navigasi li:hover ul ul{
+ display:none;
+}
+
+#navigasi li a:hover {
+		
+	    transition-duration: 0.5s;
+}
+
+.kotak
+{
+  border: 0px solid gainsboro;
+  padding-left: 200px;
+	padding-right: 200px;
+  margin-bottom: 15px;
+	width:90%;
+	height:4000px;
+	float:center;
+	margin:0 auto;
+}
+.tombol {
+  background: #872900;
+  color: #fff;
+  font-family:Sans-serif;
+  float: center;
+  padding: 5px;
+  margin-left: 620px;
+}
+.tombol:hover {
+ background-color:#FFF2F0;
+ color:#AD493A;
+}
+/*sidebar*/
+* {
+  box-sizing: border-box;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.side {
+  -ms-flex: 10%; 
+  flex: 10%;
+  background-color: white;
+  border-right: solid #CCCCCC 1px;
+  padding: 30px;
+  font-family: "open-sans";
+}
+
+h1{
+ font-size: 50px;	
+	}
+h2{
+ font-size: 35px;
+ font-family: "verdana";
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+h5{
+ font-family: "verdana";
+ font-weight: lighter;
+ padding-left: 50px;
+ padding-right: 50px;
+	}
+p{
+ font-family: "verdana";
+ font-weight: lighter;
+ font-size: 16px;
+ padding-left: 50px;
+ padding-right: 50px;
+	}
+h3{
+ font-size: 20px;
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 50px;
+  font-family: "open-sans";
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*icon sosmed*/
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 10px 80px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+	
+.fa-instagram {
+  background: #FFE9E9;
+  color: black;
+}
+
+/*button continue reading*/
+.btn1 {
+    border: none;
+    background-color: #FFE9E9;
+	color: black;
+    padding: 8px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn1:hover {
+  background-color: #947171;
+  color: #FFE9E9;
+  transition-duration: 0.2s;
+}
+/*kotak resp*/
+.kotak2
+{
+  border: 1px solid gainsboro;
+  padding: 20px;
+  margin-bottom: 15px;
+	width:800px;
+	float:center;
+	margin:0 auto;
+}
+ 
+.kotak2 h3
+{
+  background-color:#FFE9E9;
+	font-family: "verdana";
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 13px;
+	margin-left:300px;
+	width: 150px;
+	border-radius:5px;
+	}
+* {
+  box-sizing: border-box;
+}
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FFE9E9;
+  color: black;
+  padding: 7px 15px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #947171;
+  color: #FFE9E9;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+
+
+<body>
+  <div class="menu">
+    <img src="image/LOGO.png" width="200px" height="70px" style="padding-left: 0px">
+  </div>
+  
+  <div class="menu">
+    <ul id="navigasi">
+       <li><a href="Home.html">HOME</a></li>
+       <li><a href="about.html">ABOUT</a></li>
+       <li><a href="Certificate.html">CERTIFICATE</a></li>
+       <li><a href="Skills.html">SKILLS</a></li>
+     <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </div>
+    
+  <hr size="1px" color="#A6A6A6">
+
+  <div class="row">
+    <div class="side">
+      <h2 align="center">Welcome to Richelle's Portfolio</h>
+        <h5>Hello and welcome! I'm Richelle Marvela, and I'm thrilled to present to you a 
+          collection of my work that showcases my passion, skills, and experiences.</h5>
+        <hr>
+        <h3>Social Media</h3>
+        <a href="https://instagram.com/richellevela?utm_medium=copy_link" target="_blank" class="fa fa-instagram"></a>
+          <p>@Richellevela</p>
+    <hr>
+      <h3>Contact</h3>
+        <p><b>Email</b>: richellevela@gmail.com</p>
+    <hr> 
+    </div>
+    
+    <div class="main">
+  
+      <h1 align="center">Food Blog Website</h1>
+      <img src="image/ww5.png" width="100%" style="padding-left: 50px; padding-right: 50px">
+      <img src="image/ww4.png" width="100%" style="padding-left: 50px; padding-right: 50px">
+      <img src="image/ww3.png" width="100%" style="padding-left: 50px; padding-right: 50px">
+      <img src="image/ww2.png" width="100%" style="padding-left: 50px; padding-right: 50px">
+      <img src="image/ww1.png" width="100%" style="padding-left: 50px; padding-right: 50px">
+      <h5>Richelle Marvela, March 3, 2024</h5>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="kotak2">
+    <h3>Description</h3>
+    <p style="text-align:justify; width:98%; line-height: 150% "><font size="5"><b>Menu 1: Home</b></font>
+      <br>
+      The home page of the food blog features a slideshow showcasing several culinary recommendations in Jakarta. Below the slideshow, there is information about me as the website creator and blog author, along with a 
+      preview article on one of Jakarta's cuisines. Each preview article is accompanied by a "Continue Reading" button for visitors to navigate to the detailed explanation page. Additionally, there are three boxes 
+      displaying previews of recipes, each with an image of the dish and a "Read More" button to continue reading on another page. Finally, at the bottom, there is a "Contact Us" section containing a map location 
+      and a form for visitors to subscribe.
+      <hr size="1px" color="#A6A6A6">
+    <br><br><br>
+      
+    <p style="text-align:justify; width:98%; line-height: 150% "><font size="5"><b>Menu 2: About</b></font>
+      <br>
+      The About page provides an explanation about the author, including contact information such as social media handles. 
+      Additionally, it includes the "Contact Us" section in the footer.
+      <hr size="1px" color="#A6A6A6">
+    <br><br><br>
+
+    <p style="text-align:justify; width:98%; line-height: 150% "><font size="5"><b>Menu 3: Recipe</b></font>
+      <br>
+      The Recipe menu is divided into four submenus:<br>
+      1. Indonesian Food<br>
+      2. Asian Food<br>
+      3. Western Food<br>
+      4. Desserts<br>
+      Each category displays several food menu options along with their corresponding recipes. At the bottom, 
+      there is a footer containing the "Contact Us" section.
+      <hr size="1px" color="#A6A6A6">
+    <br><br><br>
+
+    <p style="text-align:justify; width:98%; line-height: 150% "><font size="5"><b>Menu 4: Jakarta Food</b></font>
+      <br>
+      Similarly, the Jakarta Food menu is divided into four submenus:<br>
+      1. Main Course<br>
+      2. Desserts<br>
+      3. Snacks<br>
+      4. Beverages<br>
+      Each submenu showcases images of various restaurant choices in Jakarta, categorized by food type, along with 
+      detailed explanations about the food offered. The footer includes the "Contact Us" section.
+      <hr size="1px" color="#A6A6A6">
+    <br><br><br>
+
+    <p style="text-align:justify; width:98%; line-height: 150% "><font size="5"><b>Menu 5: Contact</b></font>
+      <br>
+        This page serves as a contact hub, mirroring the information available in the footer section of the website.
+      <hr size="1px" color="#A6A6A6">
+    <br><br><br>
+      
+  <p style="text-align:justify; width:98%; line-height: 150% "><font size="6" style="font-family:times new roman">Leave a Comment</font><br><br>
+  <textarea rows="10" cols="70" style="background-color: #ECECEC;color: #8D8D8D;font-size: 16px;font-family: verdana" placeholder="Enter Your Comments Here"></textarea>
+  <a href="#.html" class="btn1">
+    <b>Post Comment</b>
+  </a>
+  </p></p>
+  </p>
+   </div>
+    </div>
+      </div>
+  
+      <div class="footer">
+	
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact Us</h2>
+             Copyright &copy; 2024 - Richelle Marvela
+            </div>
+          <div class="row">
+             <div class="column">
+            <img src="image/logoabu.jpg" align="left" width="530px" height="171px" style="padding:0 8px 4px 5px;">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.466523167835!2d106.781021118164!3d-6.20202159881592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6dcc7d2c4ad%3A0x209cb1eef39be168!2sUniversitas%20Bina%20Nusantara%20Kampus%20Anggrek!5e0!3m2!1sid!2sid!4v1709529536469!5m2!1sid!2sid" width="530px" height="170px" style="border:0; padding: 10px 10px 10px 10px;" allowfullscreen="" loading="lazy" align="left"></iframe> 
+            </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname"><b><h4 align="left">First Name</h4></b></label>
+                   <input type="text" id="fname" name="firstname" placeholder="First Name">
+                  <label for="lname"><b><h4 align="left">Last Name</h4></b></label>
+                  <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                  <label for="email"><b><h4 align="left">Email</h4></b></label>
+                  <input type="text" placeholder="Enter Email" name="email" required>
+                  <input type="submit" value="Subscribe">
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      </body>
+      </html>
